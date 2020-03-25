@@ -92,7 +92,7 @@
 | [adjoint-io bulletproofs] | Haskell     | secp256k1    | [BBBPWM17] |
 | [DIZK]                    | Java        | BN254        | [Groth16]  |
 | [snarkjs]                 | JavaScript  | BN254        | [Groth16], [BCTV14a] |
-| [websnark]                | WebAssembly | BN254        | [Groth16]  |
+| [wasmsnark]               | WebAssembly | BN254/MNT6753 | [Groth16]  |
 
 [libsnark]: https://github.com/scipr-lab/libsnark
 [bellman]: https://github.com/zkcrypto/bellman
@@ -101,7 +101,7 @@
 [libSTARK]: https://github.com/elibensasson/libSTARK
 [DIZK]: https://github.com/scipr-lab/dizk
 [snarkjs]: https://github.com/iden3/snarkjs
-[websnark]: https://github.com/iden3/websnark
+[wasmsnark]: https://github.com/iden3/wasmsnark
 
 Other implementations:
 
